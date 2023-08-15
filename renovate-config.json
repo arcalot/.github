@@ -3,5 +3,13 @@
   "extends": [
     "github>platform-engineering-org/.github",
     ":disableDependencyDashboard"
+  ],
+  "packageRules": [
+    {
+      "description": "Group patch updates",
+      "matchUpdateTypes": ["patch"],
+      "groupName": "Patch updates",
+      "automerge": true
+    }
   ]
 }
