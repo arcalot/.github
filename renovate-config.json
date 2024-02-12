@@ -3,6 +3,6 @@
   "extends": [
     "github>platform-engineering-org/.github",
     ":disableDependencyDashboard",
-    ":disableDigestUpdates"
+    ":pinDigestsDisabled"
   ]
 }
