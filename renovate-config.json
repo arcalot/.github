@@ -4,5 +4,21 @@
     "github>platform-engineering-org/.github",
     ":disableDependencyDashboard",
     ":pinDigestsDisabled"
+  ],
+  "packageRules": [
+    {
+      "description": "Override the docker:pinDigests preset provided by config:best-practices",
+      "matchDatasources": [
+        "docker"
+      ],
+      "pinDigests": false
+    },
+    {
+      "description": "Override the helpers:pinGitHubActionDigests preset provided by config:best-practices",
+      "matchDepTypes": [
+        "action"
+      ],
+      "pinDigests": false
+    }
   ]
 }
