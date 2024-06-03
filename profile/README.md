@@ -1,11 +1,14 @@
 # <a href="https://arcalot.io">Arcalot</a>
-<a href="https://arcalot.io"><img align="right" width="200px" style="padding-left: 2em;" alt="Arcalot logo showing a shield with the Arcalot inscription on a hill with the silhouette of a castle in the background" src="https://github.com/arcalot/.github/raw/main/branding/arcalot.png"></a>
+<a href="https://arcalot.io"><img align="right" width="200px" style="padding-left: 2em;"
+ alt="Arcalot logo showing a shield with the Arcalot inscription on a hill with the 
+ silhouette of a castle in the background" 
+ src="https://github.com/arcalot/.github/raw/main/branding/arcalot.png"></a>
 
-The Arcalot community develops tools, plugins, and libraries that you can use either standalone as a library, and/or via a user interface or CLI. You can run the tools locally, remotely, or as part of a bigger system. Arcalot:
-
-* Helps you create workflows with **normalized input and output schemas**
-* Provides you with **assisted and automated root cause analysis** for the workflows you create as well as CI and other log systems
-* Provides **stable plugins for several workloads**
+The Arcalot community is dedicated to developing modular tools, plugins, and libraries
+with flexible implementations independently or as complete end-to-end solutions. We
+believe in enabling the automation and portability of complex tasks and in
+pre-validating actions to avoid costly re-runs due to late failures and incompatible
+data.
 
 <br clear="right"/>
 
@@ -13,13 +16,22 @@ The Arcalot community develops tools, plugins, and libraries that you can use ei
 
 <a href="https://arcalot.io/arcaflow"><img align="left" width="200px" style="padding-right: 2em;" alt="Arcaflow logo showing a waterfall and a river with 3 trees symbolizing the various plugins" src="https://github.com/arcalot/.github/raw/main/branding/arcaflow.png"></a>
 
-Arcaflow is a workflow engine consisting of three main components:
+Arcaflow is a workflow system consisting of three main components:
 
-* Core engine
-* UI
-* Plugins (including SDKs for Go and Python to write your own plugins)
+* A core engine, statically-compiled and platform-portable, written in Go
+* Plugins, written in various languages and delivered as Linux containers or modules
+* Workflow definitions, written in YAML, tieing together plugins and their data
 
-It allows you to click and drag plugins into a workflow for your systems and, if needed, feed the resulting data back into the UI for further analysis. You can also use it just to generate a workflow with parallel and subsequent tasks via the command line. There is a range of supported plugins, written either in Go or Python.
+It allows you create workflows with parallel and serial tasks, passing data between the
+tasks to achieve simple or complex pipelines of actions that result in machine-readable
+outputs. The community supports an ever-growing variety of plugins, and we provide SDKs
+in Go and Python to aid the user in developing their own custom plugins.
+
+Arcaflow allows you to encapsulate and version-control expertise, making potentially
+very complex workflows easily portable among environments and automation systems. With
+an Arcaflow workflow, you can carefully craft a pipeline of actions that serves your
+direct needs, and share that worflow virtually unchanged for others to run in different
+environments and CI/CD systems.
 
 <br clear="left"/>
 
