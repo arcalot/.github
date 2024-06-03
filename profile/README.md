@@ -47,6 +47,14 @@ It also provides additional tooling to download jobs from various log systems or
 
 # Community
 
-You can find our general community health files like our code of conduct and contribution guidelines in the [.github repository](https://github.com/arcalot/.github). If you have any questions or suggestions, please use the issues in the respective repository or contribute to the [discussions](https://github.com/orgs/arcalot/discussions).
+You can find our general community health files like our code of conduct and
+contribution guidelines in the [.github repository](https://github.com/arcalot/.github).
+If you have any questions or suggestions, please use the issues in the respective
+repository.
 
-If you would like to contribute, check out the issues in the individual repositories, our [project boards](https://github.com/orgs/arcalot/projects) where we organize our work, and our [Arcalot Round Table](https://github.com/arcalot/arcalot-round-table).
+We invite you to contribute! Check out the issues in the individual repositories for
+ideas on where to get involved, or consider contributing a new plugin by starting with
+our [python plugin template repository](https://github.com/arcalot/arcaflow-plugin-template-python).
+Outside contributions and pull requests are of course welcome, and if you want to get
+more involved you can join the
+[Arcalot Round Table](https://github.com/arcalot/arcalot-round-table).
