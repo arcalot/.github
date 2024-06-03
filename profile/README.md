@@ -1,6 +1,6 @@
-# Arcalot
-
+# <a href="https://arcalot.io">Arcalot
 <img align="right" width="200px" style="padding-left: 2em;" alt="Arcalot logo showing a shield with the Arcalot inscription on a hill with the silhouette of a castle in the background" src="https://github.com/arcalot/.github/raw/main/branding/arcalot.png">
+</a>
 
 The Arcalot community develops tools, plugins, and libraries that you can use either standalone as a library, and/or via a user interface or CLI. You can run the tools locally, remotely, or as part of a bigger system. Arcalot:
 
@@ -10,9 +10,10 @@ The Arcalot community develops tools, plugins, and libraries that you can use ei
 
 <br clear="right"/>
 
-## Arcaflow
+## <a href="https://arcalot.io/arcaflow">Arcaflow
 
 <img align="left" width="200px" style="padding-right: 2em;" alt="Arcaflow logo showing a waterfall and a river with 3 trees symbolizing the various plugins" src="https://github.com/arcalot/.github/raw/main/branding/arcaflow.png">
+</a>
 
 Arcaflow is a workflow engine consisting of three main components:
 
@@ -24,9 +25,10 @@ It allows you to click and drag plugins into a workflow for your systems and, if
 
 <br clear="left"/>
 
-## Arcalog
+## <a href="https://arcalot.io/arcalog/">Arcalog
 
 <img align="right" width="200px" style="padding-left: 2em;"  alt="Arcalog logo showing an ark floating on a blue scroll symbolizing the many logs it is scrolling through" src="https://github.com/arcalot/.github/raw/main/branding/arcalog.png">
+</a>
 
 Arcalog can assist you with or automate your root cause analysis in CI or other log systems either as a standalone tool or by embedding it into your applications.
 
