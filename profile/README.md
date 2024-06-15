@@ -39,7 +39,7 @@ and a compatible container runtime.
 Arcaflow allows you to encapsulate and version-control expertise, making potentially
 very complex workflows easily portable among environments and automation systems. With
 an Arcaflow workflow, you can carefully craft a pipeline of actions that serves your
-direct needs, and share that worflow virtually unchanged for others to run in different
+direct needs, and share that workflow virtually unchanged for others to run in different
 environments and CI/CD systems.
 
 An ever-growing catalog of
