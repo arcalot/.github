@@ -5,12 +5,12 @@
  src="https://github.com/arcalot/.github/raw/main/branding/arcalot.png"></a>
 
 The Arcalot community is dedicated to developing modular tools, plugins, and libraries
-with flexible implementations independently or as complete end-to-end solutions. We
-believe in enabling the automation and portability of complex tasks and in
+with flexible implementations to be used independently or as complete end-to-end
+solutions. We believe in enabling automation and portability of complex tasks and in
 pre-validating actions to avoid costly re-runs due to late failures and incompatible
 data.
 
-<br clear="right"/>
+<br style="clear: right;"/>
 
 # Arcaflow
 
@@ -26,7 +26,9 @@ and platform-portable, written in Go
 * [Plugins](https://github.com/orgs/arcalot/repositories?q=arcaflow-plugin-), written in
 various languages and delivered as Linux containers or modules
 * [Workflow definitions](https://github.com/arcalot/arcaflow-workflows), written in
-YAML, tieing together plugins and their data
+YAML, tying together plugins and their data
+
+<br style="clear: left;"/>
 
 Arcaflow is highly-flexible and portable, helping you to build
 pipelines of actions via plugins. Plugin steps typically perform one action well, 
@@ -39,7 +41,7 @@ and a compatible container runtime.
 Arcaflow allows you to encapsulate and version-control expertise, making potentially
 very complex workflows easily portable among environments and automation systems. With
 an Arcaflow workflow, you can carefully craft a pipeline of actions that serves your
-direct needs, and share that workflow virtually unchanged for others to run in different
+direct needs and share that worflow virtually unchanged for others to run in different
 environments and CI/CD systems.
 
 An ever-growing catalog of
@@ -54,8 +56,6 @@ contribute your plugins to the community, and you can start by adding them to th
 pull request.
 
 ![image](https://raw.githubusercontent.com/arcalot/arcaflow-engine/version-and-flags/arcaflow-basic-demo.gif)
-
-<br clear="left"/>
 
 # Documentation
 
