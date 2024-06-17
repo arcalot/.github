@@ -10,7 +10,7 @@ solutions. We believe in enabling automation and portability of complex tasks an
 pre-validating actions to avoid costly re-runs due to late failures and incompatible
 data.
 
-<br style="clear: right;"/>
+<br clear="right"/>
 
 # Arcaflow
 
@@ -28,7 +28,7 @@ various languages and delivered as Linux containers or modules
 * [Workflow definitions](https://github.com/arcalot/arcaflow-workflows), written in
 YAML, tying together plugins and their data
 
-<br style="clear: left;"/>
+<br clear="left"/>
 
 Arcaflow is highly-flexible and portable, helping you to build
 pipelines of actions via plugins. Plugin steps typically perform one action well, 
