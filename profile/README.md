@@ -1,6 +1,6 @@
 # Arcalot
-<a href="https://arcalot.io"><img align="right" width="200px" style="padding-left: 2em;"
- alt="Arcalot logo showing a shield with the Arcalot inscription on a hill with the 
+<a href="https://arcalot.io"><img align="right" width="200px"
+alt="Arcalot logo showing a shield with the Arcalot inscription on a hill with the 
  silhouette of a castle in the background" 
  src="https://github.com/arcalot/.github/raw/main/branding/arcalot.png"></a>
 
@@ -15,9 +15,8 @@ data.
 # Arcaflow
 
 <a href="https://arcalot.io/arcaflow"><img align="left" width="200px"
-style="padding-right: 2em; padding-bottom: 2em;" alt="Arcaflow logo showing a waterfall and a river with 3
-trees symbolizing the various plugins"
-src="https://github.com/arcalot/.github/raw/main/branding/arcaflow.png"></a>
+alt="Arcaflow logo showing a waterfall and a river with 3 trees symbolizing the various
+plugins" src="https://github.com/arcalot/.github/raw/main/branding/arcaflow.png"></a>
 
 Arcaflow is a workflow system consisting of three main components:
 
@@ -28,6 +27,7 @@ various languages and delivered as Linux containers or modules
 * [Workflow definitions](https://github.com/arcalot/arcaflow-workflows), written in
 YAML, tying together plugins and their data
 
+<br clear="left"/>
 <br clear="left"/>
 
 Arcaflow is highly-flexible and portable, helping you to build
