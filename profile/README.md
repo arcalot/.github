@@ -15,7 +15,7 @@ data.
 # Arcaflow
 
 <a href="https://arcalot.io/arcaflow"><img align="left" width="200px"
-style="padding-right: 2em;" alt="Arcaflow logo showing a waterfall and a river with 3
+style="padding-right: 2em; padding-bottom: 2em;" alt="Arcaflow logo showing a waterfall and a river with 3
 trees symbolizing the various plugins"
 src="https://github.com/arcalot/.github/raw/main/branding/arcaflow.png"></a>
 
