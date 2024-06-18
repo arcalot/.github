@@ -7,7 +7,7 @@
   ],
   "packageRules": [
     {
-      "matchPackageNames": ["github.com/arcalot/*"],
+      "matchPackageNames": ["github.com/arcalot/*", "*.arcalot.io/**"],
       "schedule": ["at any time"],
       "lockFileMaintenance": {
         "enabled": true,
