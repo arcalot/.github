@@ -2,7 +2,7 @@
 <a href="https://arcalot.io"><img align="right" width="200px"
 alt="Arcalot logo showing a shield with the Arcalot inscription on a hill with the 
  silhouette of a castle in the background" 
- src="https://github.com/arcalot/.github/raw/main/branding/arcalot.png"></a>
+ src="https://github.com/arcalot/.github/raw/main/branding/arcalot.svg"></a>
 
 The Arcalot community is dedicated to developing modular tools, plugins, and libraries
 with flexible implementations to be used independently or as complete end-to-end
@@ -16,7 +16,7 @@ data.
 
 <a href="https://arcalot.io/arcaflow"><img align="left" width="200px"
 alt="Arcaflow logo showing a waterfall and a river with 3 trees symbolizing the various
-plugins" src="https://github.com/arcalot/.github/raw/main/branding/arcaflow.png"></a>
+plugins" src="https://github.com/arcalot/.github/raw/main/branding/arcaflow.svg"></a>
 
 Arcaflow is a workflow system consisting of three main components:
 
@@ -45,17 +45,17 @@ direct needs and share that workflow virtually unchanged for others to run in di
 environments and CI/CD systems.
 
 An ever-growing catalog of
-[official plugins](https://github.com/orgs/arcalot/repositories?q=arcaflow-plugin-) are
+[official plugins](https://github.com/orgs/arcalot/repositories?q=%22arcaflow-plugin-%22) are
 maintained within the Arcalot organization and are available as
 [versioned containers from Quay.io](https://quay.io/organization/arcalot). You can also
 build your own containerized plugins using the the Arcaflow SDK, available for
-[Python](https://arcalot.io/arcaflow/creating-plugins/python/) and
-[Golang](https://github.com/arcalot/arcaflow-plugin-sdk-go). We encourage you to
+[Python](https://arcalot.io/arcaflow/plugins/python/) and
+[Golang](https://arcalot.io/arcaflow/plugins/go/). We encourage you to
 contribute your plugins to the community, and you can start by adding them to the
 [plugins incubator](https://github.com/arcalot/arcaflow-plugins-incubator) repo via a
 pull request.
 
-![image](https://raw.githubusercontent.com/arcalot/arcaflow-engine/version-and-flags/arcaflow-basic-demo.gif)
+![image](https://raw.githubusercontent.com/arcalot/arcaflow-engine/main/arcaflow-basic-demo.gif)
 
 # Documentation
 
