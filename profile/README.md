@@ -41,7 +41,7 @@ and a compatible container runtime.
 Arcaflow allows you to encapsulate and version-control expertise, making potentially
 very complex workflows easily portable among environments and automation systems. With
 an Arcaflow workflow, you can carefully craft a pipeline of actions that serves your
-direct needs and share that worflow virtually unchanged for others to run in different
+direct needs and share that workflow virtually unchanged for others to run in different
 environments and CI/CD systems.
 
 An ever-growing catalog of
@@ -59,10 +59,10 @@ pull request.
 
 # Documentation
 
-We work hard to bring the documentation to the user, meaning that you should fine a lot
+We work hard to bring the documentation to the user, meaning that you should find a lot
 of relevant documentation in the context of what you may be working on via readme files,
-be it the engine, the SDK, a plugin, a workflow, or a sub-component. Exhaustive
-documentation, developer guides, and getting started info will always be located in the
+be it the engine, the SDK, a plugin, a workflow, or a sub-component. Comprehensive
+documentation, developer references, and quickstart guides will always be located in the
 [arcalot.io](https://arcalot.io) pages.
 
 # Community
