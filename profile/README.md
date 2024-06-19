@@ -1,4 +1,4 @@
-# Arcalot
+# [Arcalot](https://arcalot.io)
 <a href="https://arcalot.io"><img align="right" width="200px"
 alt="Arcalot logo showing a shield with the Arcalot inscription on a hill with the 
  silhouette of a castle in the background" 
@@ -12,20 +12,19 @@ data.
 
 <br clear="right"/>
 
-# Arcaflow
-
+# [Arcaflow](https://arcalot.io/arcaflow)
 <a href="https://arcalot.io/arcaflow"><img align="left" width="200px"
 alt="Arcaflow logo showing a waterfall and a river with 3 trees symbolizing the various
 plugins" src="https://github.com/arcalot/.github/raw/main/branding/arcaflow.svg"></a>
 
-Arcaflow is a workflow system consisting of three main components:
+Arcaflow is a workflow orchestration system consisting of three main components:
 
-* [The Arcaflow engine](https://github.com/arcalot/arcaflow-engine), statically-compiled
-and platform-portable, written in Go
-* [Plugins](https://github.com/orgs/arcalot/repositories?q=arcaflow-plugin-), written in
-various languages and delivered as Linux containers or modules
-* [Workflow definitions](https://github.com/arcalot/arcaflow-workflows), written in
-YAML, tying together plugins and their data
+* [The Arcaflow engine](https://github.com/arcalot/arcaflow-engine) - A
+platform-independent binary, written in Go
+* [Plugins](https://github.com/orgs/arcalot/repositories?q=arcaflow-plugin-) - Delivered
+as Linux containers and developed with SDKs
+* [Workflow definitions](https://github.com/arcalot/arcaflow-workflows) - Written in
+YAML to sequence plugins and direct data
 
 <br clear="left"/>
 <br clear="left"/>
@@ -45,8 +44,8 @@ direct needs and share that workflow virtually unchanged for others to run in di
 environments and CI/CD systems.
 
 An ever-growing catalog of
-[official plugins](https://github.com/orgs/arcalot/repositories?q=%22arcaflow-plugin-%22) are
-maintained within the Arcalot organization and are available as
+[official plugins](https://github.com/orgs/arcalot/repositories?q=%22arcaflow-plugin-%22)
+are maintained within the Arcalot organization and are available as
 [versioned containers from Quay.io](https://quay.io/organization/arcalot). You can also
 build your own containerized plugins using the the Arcaflow SDK, available for
 [Python](https://arcalot.io/arcaflow/plugins/python/) and
@@ -54,6 +53,8 @@ build your own containerized plugins using the the Arcaflow SDK, available for
 contribute your plugins to the community, and you can start by adding them to the
 [plugins incubator](https://github.com/arcalot/arcaflow-plugins-incubator) repo via a
 pull request.
+
+<br/>
 
 ![image](https://raw.githubusercontent.com/arcalot/arcaflow-engine/main/arcaflow-basic-demo.gif)
 
@@ -67,7 +68,7 @@ documentation, developer references, and quickstart guides will always be locate
 
 # Community
 
-We invite you to contribute! Check out the issues in the individual repositories for
+We invite you to contribute! Check out the Issues in the individual repositories for
 ideas on where to get involved, or consider contributing a new plugin by starting with
 our [python plugin template repository](https://github.com/arcalot/arcaflow-plugin-template-python).
 Outside contributions and pull requests are of course always welcome.
