@@ -19,8 +19,7 @@ plugins" src="https://github.com/arcalot/.github/raw/main/branding/arcaflow.svg"
 
 Arcaflow is a workflow orchestration system consisting of three main components:
 
-* [The Arcaflow engine](https://github.com/arcalot/arcaflow-engine) - A
-platform-independent binary, written in Go
+* [The Arcaflow engine](https://github.com/arcalot/arcaflow-engine) - Written in Go and delivered as a single binary
 * [Plugins](https://github.com/orgs/arcalot/repositories?q=arcaflow-plugin-) - Delivered
 as Linux containers and developed with SDKs
 * [Workflow definitions](https://github.com/arcalot/arcaflow-workflows) - Written in
