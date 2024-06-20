@@ -1,41 +1,86 @@
-# Arcalot
+# [Arcalot](https://arcalot.io)
+<a href="https://arcalot.io"><img align="right" width="200px"
+alt="Arcalot logo showing a shield with the Arcalot inscription on a hill with the 
+ silhouette of a castle in the background" 
+ src="https://github.com/arcalot/.github/raw/main/branding/arcalot.svg"></a>
 
-<img align="right" width="200px" style="padding-left: 2em;" alt="Arcalot logo showing a shield with the Arcalot inscription on a hill with the silhouette of a castle in the background" src="https://github.com/arcalot/.github/raw/main/branding/arcalot.png">
-
-The Arcalot community develops tools, plugins, and libraries that you can use either standalone as a library, and/or via a user interface or CLI. You can run the tools locally, remotely, or as part of a bigger system. Arcalot:
-
-* Helps you create workflows with **normalized input and output schemas**
-* Provides you with **assisted and automated root cause analysis** for the workflows you create as well as CI and other log systems
-* Provides **stable plugins for several workloads**
+The Arcalot community is dedicated to developing modular tools, plugins, and libraries
+with flexible implementations to be used independently or as complete end-to-end
+solutions. We believe in enabling automation and portability of complex tasks and in
+pre-validating actions to avoid costly re-runs due to late failures and incompatible
+data.
 
 <br clear="right"/>
 
-## Arcaflow
+# [Arcaflow](https://arcalot.io/arcaflow)
+<a href="https://arcalot.io/arcaflow"><img align="left" width="200px"
+alt="Arcaflow logo showing a waterfall and a river with 3 trees symbolizing the various
+plugins" src="https://github.com/arcalot/.github/raw/main/branding/arcaflow.svg"></a>
 
-<img align="left" width="200px" style="padding-right: 2em;" alt="Arcaflow logo showing a waterfall and a river with 3 trees symbolizing the various plugins" src="https://github.com/arcalot/.github/raw/main/branding/arcaflow.png">
+Arcaflow is a workflow orchestration system consisting of three main components:
 
-Arcaflow is a workflow engine consisting of three main components:
-
-* Core engine
-* UI
-* Plugins (including SDKs for Go and Python to write your own plugins)
-
-It allows you to click and drag plugins into a workflow for your systems and, if needed, feed the resulting data back into the UI for further analysis. You can also use it just to generate a workflow with parallel and subsequent tasks via the command line. There is a range of supported plugins, written either in Go or Python.
+* [The Arcaflow engine](https://github.com/arcalot/arcaflow-engine) - Written in Go and delivered as a single binary
+* [Plugins](https://github.com/orgs/arcalot/repositories?q=arcaflow-plugin-) - Delivered
+as Linux containers and developed with SDKs
+* [Workflow definitions](https://github.com/arcalot/arcaflow-workflows) - Written in
+YAML to sequence plugins and direct data
 
 <br clear="left"/>
+<br clear="left"/>
 
-## Arcalog
+Arcaflow is highly-flexible and portable, helping you to build
+pipelines of actions via plugins. Plugin steps typically perform one action well, 
+creating or manipulating data that is returned in a machine-readable format. Data is
+validated according to schemas as it passes through the pipeline in order to clearly
+diagnose type mismatch problems early. Arcaflow runs on your laptop, a jump host, or in
+a CI system, requiring only the Arcaflow engine binary, a workflow definition in YAML,
+and a compatible container runtime.
 
-<img align="right" width="200px" style="padding-left: 2em;"  alt="Arcalog logo showing an ark floating on a blue scroll symbolizing the many logs it is scrolling through" src="https://github.com/arcalot/.github/raw/main/branding/arcalog.png">
+Arcaflow allows you to encapsulate and version-control expertise, making potentially
+very complex workflows easily portable among environments and automation systems. With
+an Arcaflow workflow, you can carefully craft a pipeline of actions that serves your
+direct needs and share that workflow virtually unchanged for others to run in different
+environments and CI/CD systems.
 
-Arcalog can assist you with or automate your root cause analysis in CI or other log systems either as a standalone tool or by embedding it into your applications.
+An ever-growing catalog of
+[official plugins](https://github.com/orgs/arcalot/repositories?q=%22arcaflow-plugin-%22)
+are maintained within the Arcalot organization and are available as
+[versioned containers from Quay.io](https://quay.io/organization/arcalot). You can also
+build your own containerized plugins using the the Arcaflow SDK, available for
+[Python](https://arcalot.io/arcaflow/plugins/python/) and
+[Golang](https://arcalot.io/arcaflow/plugins/go/). We encourage you to
+contribute your plugins to the community, and you can start by adding them to the
+[plugins incubator](https://github.com/arcalot/arcaflow-plugins-incubator) repo via a
+pull request.
 
-It also provides additional tooling to download jobs from various log systems or add your own log files for analysis.
+<br/>
 
-<br clear="right"/>
+![image](https://raw.githubusercontent.com/arcalot/arcaflow-engine/main/arcaflow-basic-demo.gif)
+
+# Documentation
+
+We work hard to bring the documentation to the user, meaning that you should find a lot
+of relevant documentation in the context of what you may be working on via readme files,
+be it the engine, the SDK, a plugin, a workflow, or a sub-component. Comprehensive
+documentation, developer references, and quickstart guides will always be located in the
+[arcalot.io](https://arcalot.io) pages.
 
 # Community
 
-You can find our general community health files like our code of conduct and contribution guidelines in the [.github repository](https://github.com/arcalot/.github). If you have any questions or suggestions, please use the issues in the respective repository or contribute to the [discussions](https://github.com/orgs/arcalot/discussions).
+We invite you to contribute! Check out the Issues in the individual repositories for
+ideas on where to get involved, or consider contributing a new plugin by starting with
+our [python plugin template repository](https://github.com/arcalot/arcaflow-plugin-template-python).
+Outside contributions and pull requests are of course always welcome.
 
-If you would like to contribute, check out the issues in the individual repositories, our [project boards](https://github.com/orgs/arcalot/projects) where we organize our work, and our [Arcalot Round Table](https://github.com/arcalot/arcalot-round-table).
+If you want to get more involved with contributions, maintenance, and governance,
+consider joining the
+[Arcalot Round Table](https://github.com/arcalot/arcalot-round-table) (ART), our central
+community body. The ART currently holds bi-weekly video conference meetings. Please
+reach out to one of our
+[ART chairs](https://github.com/arcalot/arcalot-round-table/blob/main/ART_MEMBERS.md)
+for more information.
+
+You can find our general community health files like our code of conduct and
+contribution guidelines in the [.github repository](https://github.com/arcalot/.github).
+If you have any questions or suggestions, please use the Issues in the respective
+repository.
