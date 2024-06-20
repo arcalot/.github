@@ -82,5 +82,5 @@ for more information.
 
 You can find our general community health files like our code of conduct and
 contribution guidelines in the [.github repository](https://github.com/arcalot/.github).
-If you have any questions or suggestions, please use the issues in the respective
+If you have any questions or suggestions, please use the Issues in the respective
 repository.
