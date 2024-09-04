@@ -8,11 +8,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["github.com/arcalot/*", "*.arcalot.io/**"],
-      "schedule": ["at any time"],
-      "lockFileMaintenance": {
-        "enabled": true,
-        "schedule": ["at any time"]
-      }
+      "schedule": null
     }
   ]
 }
