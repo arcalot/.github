@@ -42,16 +42,16 @@ an Arcaflow workflow, you can carefully craft a pipeline of actions that serves 
 direct needs and share that workflow virtually unchanged for others to run in different
 environments and CI/CD systems.
 
-An ever-growing catalog of
-[official plugins](https://github.com/orgs/arcalot/repositories?q=%22arcaflow-plugin-%22)
-are maintained within the Arcalot organization and are available as
-[versioned containers from Quay.io](https://quay.io/organization/arcalot). You can also
-build your own containerized plugins using the the Arcaflow SDK, available for
+An ever-growing catalog of [official
+plugins](https://github.com/arcalot/arcaflow-plugin-catalog) are maintained within the
+Arcalot organization and are available as [versioned containers from
+Quay.io](https://quay.io/organization/arcalot). You can also build your own
+containerized plugins using the the Arcaflow SDK, available for
 [Python](https://arcalot.io/arcaflow/plugins/python/) and
-[Golang](https://arcalot.io/arcaflow/plugins/go/). We encourage you to
-contribute your plugins to the community, and you can start by adding them to the
-[plugins incubator](https://github.com/arcalot/arcaflow-plugins-incubator) repo via a
-pull request.
+[Golang](https://arcalot.io/arcaflow/plugins/go/). We encourage you to contribute your
+plugins to the community, and you can start by adding them to the [plugins
+incubator](https://github.com/arcalot/arcaflow-plugins-incubator) repo via a pull
+request.
 
 <br/>
 
