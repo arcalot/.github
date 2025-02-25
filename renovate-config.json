@@ -9,6 +9,11 @@
     {
       "matchPackageNames": ["github.com/arcalot/*", "*.arcalot.io/**"],
       "schedule": null
+    },
+    {
+      "matchCategories": ["golang"],
+      "matchDepTypes": ["toolchain"],
+      "enabled": false
     }
   ]
 }
