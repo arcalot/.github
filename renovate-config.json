@@ -14,6 +14,10 @@
       "matchCategories": ["golang"],
       "matchDepTypes": ["toolchain"],
       "enabled": false
+    },
+    {
+      "matchPackageNames": ["poetry"],
+      "rangeStrategy": "update-lockfile"
     }
   ]
 }
