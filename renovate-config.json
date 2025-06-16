@@ -19,5 +19,8 @@
       "matchPackageNames": ["poetry"],
       "rangeStrategy": "update-lockfile"
     }
-  ]
+  ],
+  "pep621": {
+    "enabled": false
+  }
 }
